@@ -2,7 +2,7 @@
 def vocales(word):
     num = 0
     for letter in word:
-        if letter in "aeiou":
+        if letter in "aeiouAEIOU":
            num+=1
     print("Numero de vocales:" + str(num))
                 
