@@ -1,7 +1,6 @@
-largo = int(input("Ingrese el largo: "))
-char = input("Ingrese el caracter a utilizar: ")
-
-def draw_triangle(largo:int, char:str)->None:
+def draw_triangleud()->None:
+    largo = int(input("Ingrese el largo: "))
+    char = input("Ingrese el caracter a utilizar: ")
     cont:int=largo
     
     for x in range(largo):
@@ -9,5 +8,4 @@ def draw_triangle(largo:int, char:str)->None:
         print((" ") * spaces + (char + " ") * cont)
         cont-=1
         
-
-draw_triangle(largo,char)
+draw_triangleud()
