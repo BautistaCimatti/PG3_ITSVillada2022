@@ -6,9 +6,10 @@ class Familia:
         self.hijos = []
         for i in range(self.cont):
             self.hijos.append(str(input("Nombre del hijo: ")))
-        
-    def __str__(self)->str:
+
+    def __str__(self) -> str:
         return f"Padre: {self.padre} \nMadre: {self.madre} \nHijos:  {self.hijos}"
 
-f1=Familia()
+
+f1 = Familia()
 print(f1)

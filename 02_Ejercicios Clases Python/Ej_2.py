@@ -4,14 +4,15 @@ class Alumno:
         self.nota = nota
 
     def imprimir(self):
-        print("Nombre: "+str(self.nombre))
-        print("Nota: "+str(self.nota))
+        print("Nombre: " + str(self.nombre))
+        print("Nota: " + str(self.nota))
 
     def estado(self):
-        if self.nota>=6:
+        if self.nota >= 6:
             print("Regular")
         else:
             print("Desaprobado")
+
 
 Alumno1 = Alumno("Jorge", 5)
 Alumno2 = Alumno("Pepe", 8)
