@@ -17,3 +17,9 @@ except TypeError:
         f.close()
         f = open("demofile.txt", "r")
         print(f.read()) 
+
+except ValueError:
+        f.write(str(i))
+        f.close()
+        f = open("demofile.txt", "r")
+        print(f.read()) 
